@@ -1,0 +1,84 @@
+body{
+    background-color: #e9e1e1;
+    font-family: 'Roboto';
+}
+.screen{
+    background: transparent;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.pop-up{
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 80%;
+}
+.left{
+    background: no-repeat center center/cover url("../assets/img/imagemPrincipalLogin.svg");
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+.right{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+#logo{
+    padding: 7.5em;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.form input{
+    border: 2px solid #0f0f00;
+    border-radius: 15px;
+    width: 250px;
+    height: 35px;
+    padding-left: 1rem;
+}
+.btn{
+    background: #FF8E00;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-family: 'Roboto';
+    color: #ffffff;
+    height: 50px;
+    margin-top: 1rem;
+    transition: .8s;
+    width: 200px;
+}
+.btn:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.cpf-cnpj, .senha{
+    position: relative;
+}
+#cpf-cnpj-form, #senha-form{
+    background: #ffffff;
+    left: 85px;
+    position: absolute;
+    text-align: center;
+    top: -7px;
+    width: 100px;
+}
+#senha-form{
+    left: 110px;
+    width: 50px;
+}
+.lista-login{
+    display: flex;
+    gap: 20px;
+    margin-top: 20%;
+    color: #4485F1;
+}
